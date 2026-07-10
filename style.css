@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.common-btn{
+    background-color: #1D4ED8;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* navbar style starts from here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav .nav-item ul{
+    display: flex;
+    gap: 25px;
+}
+
+nav .nav-item ul li{
+    list-style: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
