@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 .container {
   max-width: 1100px;
@@ -11,6 +12,7 @@
 .common-btn {
   background-color: #1d4ed8;
   font-size: 16px;
+  font-weight: bold;
   color: #ffffff;
   padding: 12px 12px;
   border: none;
@@ -34,6 +36,7 @@ nav .nav-item ul {
 nav .nav-item ul li {
   list-style: none;
   font-size: 16px;
+  font-weight: 400;
   cursor: pointer;
 }
 
@@ -61,11 +64,18 @@ nav .nav-item ul li {
 
 .hero-content h1 {
   font-size: 80px;
+  font-weight: bold;
   margin-top: 3rem;
+}
+
+.hero-content h1 span{
+  font-weight: bold;
+  font-style: italic;
 }
 
 .hero-content p {
   font-size: 22px;
+  font-weight: 400;
   padding: 0 10rem;
   margin-top: 0.5rem;
 }
@@ -89,6 +99,7 @@ nav .nav-item ul li {
   padding-top: 80px;
   padding-bottom: 56px;
   font-size: 56px;
+  font-weight: bold;
 }
 
 .meat-the-spk-sec-box-container {
@@ -112,16 +123,19 @@ nav .nav-item ul li {
 
 .meat-the-spk-sec-box h3 {
   font-size: 12px;
+  font-weight: 600;
   margin-top: 10px;
   color: #2563eb;
 }
 
 .meat-the-spk-sec-box h2 {
   font-size: 20px;
+  font-weight: bold;
 }
 
 .meat-the-spk-sec-box p {
   font-size: 14px;
+  font-weight: 400;
 }
 
 .meat-the-spk-sec-box h3,
@@ -147,10 +161,12 @@ p {
 
 .sec-your-spot-heading-and-date h2 {
   font-size: 48px;
+  font-weight: bold;
 }
 
 .sec-your-spot-heading-and-date p {
   font-size: 16px;
+  font-weight: 400;
 }
 
 .secure-your-spot-card-container {
@@ -168,16 +184,19 @@ p {
 
 .secure-your-spot-cards .varient {
   font-size: 13px;
+  font-weight: 600;
   padding: 0px;
   margin: 0px;
 }
 
 .secure-your-spot-cards .price {
   font-size: 44px;
+  font-weight: bold;
 }
 
 .secure-your-spot-cards .person {
   font-size: 13px;
+  font-weight: 400;
 }
 
 .devider {
@@ -197,6 +216,7 @@ p {
 
 .secure-your-spot-cards ul li {
   font-size: 14px;
+  font-weight: 400;
 }
 
 .secure-your-spot-cards li::marker {
@@ -207,12 +227,14 @@ p {
   width: 100%;
   text-align: center;
   font-size: 14px;
+  font-weight: 600;
   padding: 11px 0px;
   color: #ffffff;
   background-color: #2563eb;
   border: none;
   border-radius: 12px;
   cursor: pointer;
+
 }
 
 .highlighted-card {
