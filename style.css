@@ -375,38 +375,61 @@ p {
 footer{
   width: 100%;
   background-color: #0d1b2a;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 90px;
-  color: #ffffff;
-}
-
-.coppyright-logo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   
 }
 
-.coppyright-logo p{
-  font-size: 16px;
-  margin: 0;
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
 }
 
-.devider-footer{
-  width: 1px;
-  height: 30px;
-  background-color: white;
+.footer-logo-and-social-media-icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .social-media-icon{
   display: flex;
-  gap: 50px;
-
+  gap: 30px;
 }
-
 .social-media-icon i{
   font-size: 30px;
   cursor: pointer;
+  color: #ffffff;
+  
+}
+
+.footer-devider{
+  height: 1px;
+  width: 100%;
+  background-color: #ffffff;
+  margin: 30px 0px;
+}
+
+.coppyright{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  
+}
+
+.coppyright i{
+  color: #ffffff;
+  font-size: 15px;
+  
+}
+
+.coppyright p{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+
 }
